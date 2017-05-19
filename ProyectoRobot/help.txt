@@ -1,0 +1,108 @@
+BIENVENIDO a la ventana de ayuda de P.A.C.O version 1.0 
+
+
+P.A.C.O es el acrónimo para: 
+Proyecto Androide de Comportamiento Objetivo 
+
+Como su nombre especifica, este autómata tiene un comportamiento 
+objetivo; es decir, no realiza acciones por decisión propia, 
+ya que solo tiene la capacidad de ejecutar comandos indicados 
+por el usuario o previamente establecidos. 
+
+Estos comandos deben ser escritos en el "shell" que se encuentra 
+en la parte inferior de la ventana, y serán ejecutados con la
+tecla <RETURN> mejor conocida como <ENTER>.
+
+A continuación se mencionan los comandos aceptados por P.A.C.O: 
+
+        hello               goback              music-off 
+        built               right               smile 
+        power(n)            left                cry 
+        status              dance               shoot 
+        goahead             music-on            fly 
+
+En adición a estos comandos, también existe el comando help, el
+cual da acceso a esta ventana de ayuda, y el comando exit, que 
+se encarga de cerrar el programa.
+
+A continuación se explicará brevemente cada uno de los comandos. 
+
++hello: El robot saluda con su mano y dice su nombre. 
+
++built: El robot dice la fecha en que fue creado. 
+
++power(n): El robot cambia su energía al valor 'n', el cual debe 
+           estar en un rango entre 0 y 100, ambos incluidos.
+
++status: El robot indica cuanta energía tiene. 
+
++goahead: El robot camina unos pocos pasos hacia adelante. 
+
++goback: El robot camina unos pocos pasos hacia atrás. 
+
++right: El robot gira a la derecha. 
+
++left: El robot gira a la izquierda. 
+
++dance: El robot baila durante unos segundos. 
+
++music-on: El robot reproduce musica continuamente. 
+
++music-off: El robot detiene la reproducción de la música. 
+
++smile: El robot sonríe durante unos cuantos segundos. 
+
++cry: El robot llora durante unos segundos.
+
++shoot: El robot dispara una vez, hacia adelante. Este comando
+	también puede ser ejecutado al escribir "own1".
+
++fly: El robot vuela hacia el frente hasta alcanzar su antigua
+      posicion. Este comando también puede ser ejecutado al 
+      escribir "own2".
+
+Estos comandos serán ejecutados indiferentemente de si se 
+escriben en mayuscula o minuscula.
+
+Cabe destacar que algunos de estos comandos reducen de forma
+distinta el nivel de energía del robot, mientras que otros no.
+Según se clasifican a continuación:
+
++Reducen 1 nivel de energia:
+ goahead, goback, left, right, music-on, cry
+
++Reduecen 2 niveles de energia:
+ dance, shoot, fly
+
++No reducen la energia:
+ hello, built, power(n), status, music-off, smile
+
+El nivel de batería se muestra permanentemente en la parte
+superior izquierda de la ventana o en el shell al ejecutar 
+el comando "status".
+
+Cuando el nivel de la batería del robot sea igual a 0 los 
+unicos comandos permitidos son:
+exit, power(n), status y help
+
+Boton REINICIAR
+En la parte superior derecha de la ventana se encuentra un
+botón con el texto "REINICIAR", este botón permite volver
+a los valores predeterminados de la configuración de P.A.C.O.
+De lo contrario, al iniciar el programa, se ejecutará la 
+configuración guardada antes de cerrar el programa por última
+vez.
+
+Bajo el botón de REINICIAR se encuentra una entrada de texto
+la cual sirve para definir el color de fondo de la ventana,
+simplemente coloca el cursor en la entrada de texto, escribe
+el color deseado y este se activará al colocar el cursor de
+vuelta en el shell o mediante el botón de "refresh" junto a
+la ventana de texto. Algunos colores no están permitidos, por 
+ejemplo el "green", "red", y "yellow" ya que pueden interferir
+con algunos elementos de la ventana, pero se pueden utilizar
+colores similares, por ejemplo: "light green", "pink", entre
+otros. El color "black" tampoco es permitido porque P.A.C.O
+es muy alegre y no le gusta la oscuridad.
+Es importante mencionar que los colores deben escribirse en
+Ingles; ademas, no se toma en cuenta mayusculas o minusculas.

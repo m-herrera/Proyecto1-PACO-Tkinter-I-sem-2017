@@ -1,0 +1,9 @@
+Nombre: P.A.C.O
+Estado: 1
+posx: 300
+posy: 260
+Direccion: 1
+Bateria: 100
+Fecha de creacion: 12/04/2017 
+Imagen: ProyectoRobot\imagenes\Idle.png 
+Bg color:silver
